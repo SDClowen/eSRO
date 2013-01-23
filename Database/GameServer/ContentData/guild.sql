@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS `guild`;
+CREATE TABLE  `guild` (
+	`ID` INTEGER NOT NULL auto_increment,
+	`UnionID` INTEGER NOT NULL DEFAULT 0,
+	`EmblemID` INTEGER NOT NULL DEFAULT 0,
+	`Name` varchar(20) NOT NULL,
+	`Level` int(1) NOT NULL DEFAULT 1,
+	`GP` INTEGER NOT NULL DEFAULT 0,
+	`Title` varchar(20) NOT NULL DEFAULT '',
+	`Msg` varchar(1024) NOT NULL DEFAULT '',
+	`StorageCapacity` INTEGER NOT NULL DEFAULT 0,
+	`StoredGold` INTEGER NOT NULL DEFAULT 0,
+  PRIMARY KEY  (`ID`)
+);

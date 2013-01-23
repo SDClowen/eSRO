@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS `refregioncode`;
+CREATE TABLE `refregioncode` (
+	`ID` INTEGER NOT NULL UNIQUE,
+	`X` INTEGER NOT NULL,
+	`Y` INTEGER NOT NULL,
+);
+

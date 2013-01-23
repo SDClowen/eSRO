@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS `reftask`;
+CREATE TABLE `reftask` (
+	`refCharID` INTEGER NOT NULL,
+	`refName` VARCHAR(50) NOT NULL,
+	`TaskID` INTEGER NOT NULL,
+	`MinLv` INTEGER(3) NOT NULL
+);

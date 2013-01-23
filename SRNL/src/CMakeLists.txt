@@ -1,0 +1,5 @@
+add_library (SRNL STATIC client_connection_interface.cpp client_connection_state.cpp client_state_handshake_interface.cpp
+	packet.cpp packet_authentication.cpp packet_util_functions.cpp security.cpp server_connection_interface.cpp server_connection_state.cpp
+	server_interface.cpp server_state_handshake_interface.cpp)
+
+target_link_libraries (SRNL Blowfish)

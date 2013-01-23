@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS `market`;
+CREATE TABLE `market` (
+	`refCharID` INTEGER NOT NULL,
+	`refItemID` INTEGER NOT NULL,
+	`MaxProfit` INTEGER NOT NULL,
+	`MinProfit` INTEGER NOT NULL,
+	`QuantitySold` INTEGER NOT NULL DEFAULT 0
+);
+

@@ -1,0 +1,5 @@
+DROP TABLE IF EXISTS `skills`;
+CREATE TABLE  `skills` (
+  `CharID` int NOT NULL,
+  `ID` int NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
